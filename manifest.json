@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Clock",
+  "version": "1.0",
+
+  "description": "Displays the date and time in a popup when the icon is clicked in the toolbar",
+
+  "icons": {
+    "48": "icons/clock-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/clock-48.png",
+    "default_title": "Clock",
+    "default_popup": "popup/index.html"
+  }
+}

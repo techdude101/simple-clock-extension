@@ -1,0 +1,11 @@
+html, body {
+  width: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+#popup-content {
+  text-align: center;
+}
