@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Clock",
+  "name": "Simple Clock",
   "version": "1.0",
 
   "description": "Displays the date and time in a popup when the icon is clicked in the toolbar",
